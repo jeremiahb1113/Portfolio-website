@@ -1,10 +1,31 @@
 @font-face {
     font-family: league-spartan;
-    src: url('C:/Users/14844/Desktop/Coding/Portfolio-apps/Node Practice/Portfolio-App/src/public/fonts/league-spartan/leaguespartan-bold.eot')
+    src: url('/fonts/league-spartan/leaguespartan-bold.eot')
+}
+
+.icon-details{
+    width: 32px;
+    height: 32px;
 }
 
 .sidebar{
 
+}
+.techs{
+    border-style: solid;
+    font-size: 30px;
+}
+.nav-item{
+    font-size: 50px;
+    text-indent: 15px;
+
+}
+.upperbound{
+    background-color: rgb(40, 39, 52);
+    color:rgb(230, 234, 239);
+    border-style: solid;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 .undernav{}
 
@@ -12,7 +33,7 @@
     text-align: justify;
     font-size: 110px;
     font-family: league-spartan;
-    color:rgb(63, 68, 68);
+    color:rgb(227, 233, 233);
 
     text-indent: 100px;
 }
@@ -20,7 +41,7 @@
 .midname{
     text-align: justify;
     font-size: 80px;
-    color:rgb(63, 68, 68);
+    color:rgb(227, 233, 233);
     text-indent: 200px;
 }
 p{}
