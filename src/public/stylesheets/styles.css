@@ -1,0 +1,26 @@
+@font-face {
+    font-family: league-spartan;
+    src: url('C:/Users/14844/Desktop/Coding/Portfolio-apps/Node Practice/Portfolio-App/src/public/fonts/league-spartan/leaguespartan-bold.eot')
+}
+
+.sidebar{
+
+}
+.undernav{}
+
+.bigname{
+    text-align: justify;
+    font-size: 110px;
+    font-family: league-spartan;
+    color:rgb(63, 68, 68);
+
+    text-indent: 100px;
+}
+
+.midname{
+    text-align: justify;
+    font-size: 80px;
+    color:rgb(63, 68, 68);
+    text-indent: 200px;
+}
+p{}
