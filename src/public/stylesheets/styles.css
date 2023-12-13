@@ -6,14 +6,46 @@
 .icon-details{
     width: 32px;
     height: 32px;
+   justify-content: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   flex: 0 1 calc(20% - 8px);
+   
 }
 
+span{
+    padding: 10px;
+   
+}
 .sidebar{
+
+}
+
+.icon-box{
+    
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 2px solid rgb(214, 211, 211);
+    border-radius: 5px;
+    padding: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: rgb(232, 238, 238);
+    
+    
+    
+    
 
 }
 .techs{
     border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
     font-size: 30px;
+    text-align: center;
+    padding-left: 15px;
+    
+
 }
 .nav-item{
     font-size: 50px;
