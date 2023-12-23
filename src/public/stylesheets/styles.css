@@ -49,23 +49,26 @@ span{
 }
 .nav-item{
     font-size: 50px;
-    text-indent: 15px;
+   /* text-indent: 15px;*/
+   margin-top: 15px;
+   
+  margin-left: 150px;
 
 }
 .upperbound{
-    background-color: rgb(40, 39, 52);
-    color:rgb(230, 234, 239);
+   /* background-color: rgb(40, 39, 52);
+    color: black;
     border-style: solid;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 10px;*/
 }
-.undernav{}
+
 
 .bigname{
     text-align: justify;
     font-size: 110px;
     font-family: league-spartan;
-    color:rgb(227, 233, 233);
+    color:black;
 
     text-indent: 100px;
 }
@@ -73,7 +76,29 @@ span{
 .midname{
     text-align: justify;
     font-size: 80px;
-    color:rgb(227, 233, 233);
+    color: black;
     text-indent: 200px;
 }
-p{}
+.standard{
+    background-image: url('../images/leone-venter-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+.master-nav{
+    font-size: 14px;
+    
+}
+#navbarNav{
+    background-color: rgb(18, 17, 17);
+}
+
+/* this is curently mannual, meaning every time I add or remove an Item
+I need to refactor it, this may need to be fixed*/
+.nav-link{
+    color: white;
+    margin-top: 15px;
+    font-size: 23px;
+   margin-left: 10%;  
+}
+
