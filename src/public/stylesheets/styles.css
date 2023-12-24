@@ -31,8 +31,22 @@ span{
     padding-right: 25px;
     padding-left: 25px;
     background-color: rgb(232, 238, 238);
+    height: 40%;
+    width: 60%;
+    margin-left: 80px;
     
+    /*
+     
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 2px solid rgb(214, 211, 211);
+    border-radius: 5px;
+    padding: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: rgb(232, 238, 238);
     
+    */
     
     
 
@@ -52,7 +66,7 @@ span{
    /* text-indent: 15px;*/
    margin-top: 15px;
    
-  margin-left: 150px;
+  margin-left: 20%;
 
 }
 .upperbound{
@@ -101,4 +115,33 @@ I need to refactor it, this may need to be fixed*/
     font-size: 23px;
    margin-left: 10%;  
 }
+.project-component{
+    margin-left: 80px;
+    border: solid;
+    height: 90%;
+    width: 75%;
+    background-color: aqua;
+}
+.project{
+    margin-left: 10px;
+    width: 30%;
+    height: 80%;
+    background-color: red;
+    padding-bottom: 10%;
+    border: solid;
+}
+.project-image{
+    margin-left: 3px;
+    height: 65%;
+    width: 94%;
+   
 
+}
+.project-content{
+    position: relative;
+    margin-bottom: 20%;
+    height: 30%;
+}
+.colored-icons{
+    
+}
