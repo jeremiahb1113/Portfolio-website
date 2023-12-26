@@ -17,9 +17,7 @@ span{
     padding: 10px;
    
 }
-.sidebar{
 
-}
 
 .icon-box{
     
@@ -59,14 +57,19 @@ span{
     text-align: center;
     padding-left: 15px;
     
-
+}
+#nav-icon{
+   
+    font-size:160%;
+    padding-right: 8px;
 }
 .nav-item{
     font-size: 50px;
    /* text-indent: 15px;*/
-   margin-top: 15px;
+  /* margin-top: 15px; */
    
-  margin-left: 20%;
+  margin-left: 5%;
+  right: 180px;
 
 }
 .upperbound{
@@ -79,6 +82,7 @@ span{
 
 
 .bigname{
+    padding-top: 20%;
     text-align: justify;
     font-size: 110px;
     font-family: league-spartan;
@@ -100,20 +104,67 @@ span{
     background-size: cover;
 }
 .master-nav{
-    font-size: 14px;
+    
+    position: fixed;
+    
+    display: flex;
+    
+    flex-wrap: nowrap;
+    font-size: 17px;
+   
+    background-color: rgb(18, 17, 17);
+    width:100%;
+    
+
     
 }
-#navbarNav{
-    background-color: rgb(18, 17, 17);
+.master-nav ul{
+    /*display: flexbox;*/
+    /*flex-wrap: nowrap;*/
+    /*text-align: center;*/
+   
+    
 }
+
+.navigation{
+margin-top:8px;
+margin-bottom: 8px;
+
+margin-left: 15%;
+margin-right: 15%;
+flex-direction:column;
+
+
+}
+
+.master-nav a{
+    transition: all 0.3s ease 0s;
+    color: white;
+    
+  
+    
+   
+   
+    /*justify-items: left;*/
+    /*text-align: center;*/
+}
+.master-nav a:hover{
+color:rgb(60, 65, 177)}
+
+
 
 /* this is curently mannual, meaning every time I add or remove an Item
 I need to refactor it, this may need to be fixed*/
 .nav-link{
+    display: inline-block;
+    padding: 0px 20px;
+   
+    /*
     color: white;
-    margin-top: 15px;
+    text-align:center;
+    
     font-size: 23px;
-   margin-left: 10%;  
+    */
 }
 .project-component{
     margin-left: 80px;
