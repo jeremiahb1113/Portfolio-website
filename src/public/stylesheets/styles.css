@@ -59,17 +59,21 @@ span{
     
 }
 #nav-icon{
-   
+    
     font-size:160%;
-    padding-right: 8px;
+    padding-right: 25px;
+    position: relative;
+    align-items: right;
+    left: 90%;
+    
+   
 }
 .nav-item{
     font-size: 50px;
    /* text-indent: 15px;*/
   /* margin-top: 15px; */
    
-  margin-left: 5%;
-  right: 180px;
+  
 
 }
 .upperbound{
@@ -103,6 +107,7 @@ span{
     background-attachment:scroll;
     background-size: cover;
 }
+
 .master-nav{
     
     position: fixed;
@@ -118,21 +123,17 @@ span{
 
     
 }
-.master-nav ul{
-    /*display: flexbox;*/
-    /*flex-wrap: nowrap;*/
-    /*text-align: center;*/
-   
-    
-}
+
 
 .navigation{
 margin-top:8px;
 margin-bottom: 8px;
 
 margin-left: 15%;
-margin-right: 15%;
+
 flex-direction:column;
+flex-wrap:wrap;
+
 
 
 }
@@ -140,6 +141,8 @@ flex-direction:column;
 .master-nav a{
     transition: all 0.3s ease 0s;
     color: white;
+   
+    
     
   
     
@@ -156,8 +159,10 @@ color:rgb(60, 65, 177)}
 /* this is curently mannual, meaning every time I add or remove an Item
 I need to refactor it, this may need to be fixed*/
 .nav-link{
+    /**this is setting the nav to be horizontal*/
     display: inline-block;
-    padding: 0px 20px;
+    margin-left: 60px;
+    /* padding: 0px ////40px; */
    
     /*
     color: white;
@@ -196,3 +201,45 @@ I need to refactor it, this may need to be fixed*/
 .colored-icons{
     
 }
+
+/***new navbar***/
+.navigation-bar{
+    
+    background-color: black;
+    width:100%;
+    position: fixed;
+    text-decoration: none;
+    display: inline;
+    justify-content: space-between;
+    
+    
+}
+
+.nav-items{
+    padding: 0;
+    margin: 0 ;
+    list-style: none;
+    justify-content: center;
+    gap: 14%;
+  font-size: 1.2rem;
+    display: flex;
+    
+    
+}
+li a{
+    display: inline;
+    text-decoration: none;
+    transition: hover 0.3s;
+}
+li a:hover{
+    color:rgb(60, 65, 177);
+}
+
+.right-end{
+    float: right;
+    align-items: center;
+    display: flex;
+    flex-wrap:nowrap;
+    gap: 5%;
+}
+

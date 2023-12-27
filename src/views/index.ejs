@@ -1,10 +1,14 @@
 <html lang="en">
  
     <%- include("../partials/head.ejs") %>
+
+    
+        <%- include("../partials/navbar.ejs") %>
+     
+   
    
     <body class="standard">
-        <%- include("../partials/nav.ejs") %>
-        <%- include("../partials/scarf.ejs") %>
+          <%- include("../partials/scarf.ejs") %>
         <p>Hello world</p>
         <%- include("../partials/details.ejs") %>
         <%- include("../partials/projects.ejs", {title:'test title'}) %>
