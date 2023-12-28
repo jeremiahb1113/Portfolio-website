@@ -3,16 +3,18 @@
     <%- include("../partials/head.ejs") %>
 
     
-        <%- include("../partials/navbar.ejs") %>
-     
+    <%- include('../partials/nav.ejs') %>  
    
    
     <body class="standard">
-          <%- include("../partials/scarf.ejs") %>
-        <p>Hello world</p>
-        <%- include("../partials/details.ejs") %>
-        <%- include("../partials/projects.ejs", {title:'test title'}) %>
-
+      
+        <div >
+           
+            <%- include("../partials/scarf.ejs") %>
+            <p class="grass-words">I am a fullstack software developer specializing in Java, Javascript, React, PostgreSql, and many other languages, frameworks and databases</p>
+            
+           </div>
+         
     </body>
 
     <%- include("../partials/footer.ejs") %>

@@ -22,6 +22,13 @@ app.get('/about', (req, res) =>{
     res.render('about')
 })
 
+app.get('/project-page', (req, res) =>{
+    res.render('project-page')
+})
+app.get('/contact', (req, res) => {
+    res.render('contact')
+})
+
 //404 page
 app.use((req, res) => {
     res.status(404).render('404')
