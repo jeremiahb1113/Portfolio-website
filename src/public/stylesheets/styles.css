@@ -58,11 +58,15 @@ hr{
     
 }
 footer{
+    
     background-color: black;
+    position: absolute;
     color: white;
+    bottom: 0;
     text-align: center;
-    margin-top: 200px;
-    border-bottom: white;
+    
+    width: 100%;
+   
     
 }
 .grass-words{
@@ -99,7 +103,7 @@ footer{
 
 
 .bigname{
-    padding-top: 20%;
+    padding-top: 14%;
     text-align: justify;
     font-size: 110px;
     font-family: league-spartan;
