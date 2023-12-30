@@ -74,6 +74,7 @@ footer{
     font-size: larger;
     color:rgb(4, 4, 4);
     text-align: center;
+   
 }
 .techs{
     border-style: solid;
@@ -86,11 +87,9 @@ footer{
 }
 #nav-icon{
     
+    text-align: right;
     font-size:160%;
-    padding-right: 25px;
-    position: relative;
-    align-items: right;
-    left: 90%;
+   
     
    
 }
@@ -132,71 +131,43 @@ footer{
     
 }
 
-.master-nav{
-    
-    position: fixed;
-    
+/* nav bar*/
+.flex-container{
     display: flex;
     
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     font-size: 17px;
-   
+    color: white;
     background-color: rgb(18, 17, 17);
+    justify-content: space-evenly;
     width:100%;
     
-
-    
 }
 
-
-.navigation{
-margin-top:8px;
-margin-bottom: 8px;
-
-margin-left: 15%;
-
-flex-direction:column;
-flex-wrap:wrap;
-
-
-
-}
-
-.master-nav a{
-    transition: all 0.3s ease 0s;
-    color: white;
-   
-    
+.flex-container a.page-links{
     
   
+    display: flex;
+    justify-content:center;
+}
+/*navbar links*/
+.flex-container a{
+    margin: 12px;
     
-   
-   
-    /*justify-items: left;*/
-    /*text-align: center;*/
-}
-.master-nav a:hover{
-color:rgb(54, 149, 212);
-transition: 0.5s
-}
-
-
-
-/* this is curently mannual, meaning every time I add or remove an Item
-I need to refactor it, this may need to be fixed*/
-.nav-link{
-    /**this is setting the nav to be horizontal*/
-    display: inline-block;
-    margin-left: 60px;
-    /* padding: 0px ////40px; */
-   
-    /*
     color: white;
-    text-align:center;
+    text-decoration: none;
+    margin-left: 54px;
+
     
-    font-size: 23px;
-    */
 }
+
+
+.flex-container a:hover {
+    transition: 0.5s;
+    color:rgb(54, 149, 212);
+}
+
+
 .project-component{
     margin-left: 80px;
     border: solid;
@@ -229,38 +200,9 @@ I need to refactor it, this may need to be fixed*/
 }
 
 /***new navbar***/
-.navigation-bar{
-    
-   
-    width:100%;
-    position: fixed;
-    text-decoration: none;
-    display: inline;
-    justify-content: space-between;
-    
-    
-}
 
-.nav-items{
-    padding: 0;
-    margin: 0 ;
-    list-style: none;
-    justify-content: center;
-    gap: 14%;
-  font-size: 1.2rem;
-    display: flex;
-    
-    
-}
-li a{
-    display: inline;
-    text-decoration: none;
-    color: black;
-    transition: 0.5s;
-}
-li a:hover{
-    color:rgb(255, 255, 255);
-}
+
+
 
 .right-end{
     float: right;
@@ -269,4 +211,6 @@ li a:hover{
     flex-wrap:nowrap;
     gap: 5%;
 }
+@media screen and (max-width: 600px){
 
+}
