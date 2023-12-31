@@ -134,6 +134,10 @@ footer{
 
 /* nav bar*/
 .flex-container{
+    
+    
+}
+.navigation-bar{
     display: flex;
     position: fixed;
     flex-wrap: wrap;
@@ -142,7 +146,6 @@ footer{
     background-color: rgb(18, 17, 17);
     justify-content: space-evenly;
     width:100%;
-    
 }
 
 .flex-container a.page-links{
@@ -168,13 +171,31 @@ footer{
     color:rgb(54, 149, 212);
 }
 
+.flex-container div{
+    display: flex;
+    border:  solid blue;
+    justify-content:flex-start;
+    
+}
+
 
 .project-component{
+    margin-top: 3%;
+    margin-left: 3%;
+    flex-direction: row;
+    display: flex;
+    
+    width: 70%;
+    height:500px;
+    border: solid red;
+    /*
+    justify-content: center;
     margin-left: 80px;
     border: solid;
     height: 90%;
     width: 75%;
     background-color: aqua;
+    */
 }
 .project{
     margin-left: 10px;
@@ -191,6 +212,7 @@ footer{
    
 
 }
+
 .project-content{
     position: relative;
     margin-bottom: 20%;
