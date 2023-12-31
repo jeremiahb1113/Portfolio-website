@@ -74,6 +74,7 @@ footer{
     font-size: larger;
     color:rgb(4, 4, 4);
     text-align: center;
+    display:flexbox;
    
 }
 .techs{
@@ -134,7 +135,7 @@ footer{
 /* nav bar*/
 .flex-container{
     display: flex;
-    
+    position: fixed;
     flex-wrap: wrap;
     font-size: 17px;
     color: white;
@@ -213,4 +214,14 @@ footer{
 }
 @media screen and (max-width: 600px){
 
+}
+
+footer{
+    margin-top: auto;
+    position: relative;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
