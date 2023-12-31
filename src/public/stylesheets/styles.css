@@ -171,7 +171,8 @@ footer{
     color:rgb(54, 149, 212);
 }
 
-.flex-container div{
+.project-master{
+    margin-top: 10%;
     display: flex;
     border:  solid blue;
     justify-content:flex-start;
