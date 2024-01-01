@@ -20,18 +20,22 @@ span{
 
 
 .icon-box{
-    
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     border-style: solid;
-    border-width: 2px solid rgb(214, 211, 211);
+    border-width: 2px solid rgba(214, 211, 211, 0.068);
     border-radius: 5px;
-    padding: 50px;
+    
     padding-right: 25px;
     padding-left: 25px;
-    background-color: rgb(232, 238, 238);
-    height: 40%;
-    width: 60%;
-    margin-left: 80px;
+   
+    background-color: rgba(255, 255, 255, 0.396);
+    margin-left: 15%;
+    margin-right: 15%;
+   /* height: 40%;*/
+    width: 700px;
+   
     
     /*
      
@@ -120,7 +124,7 @@ footer{
 }
 .standard{
     /*photo size is 4288 x 28488*/
-    background-image: url('../images/basic-bkg.jpg');
+    background-image: url('../images/willian-justan.jpg');
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-size:cover;
@@ -172,7 +176,7 @@ footer{
 }
 
 .project-master{
-    margin-top: 10%;
+    margin: 10% 5% 10% 5%;
     display: flex;
     border:  solid blue;
     justify-content:flex-start;
@@ -181,8 +185,7 @@ footer{
 
 
 .project-component{
-    margin-top: 3%;
-    margin-left: 3%;
+    margin: 3% 3% 3% 3%;
     flex-direction: row;
     display: flex;
     
@@ -247,4 +250,18 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+/*details page*/
+.details-page, .details-page2{
+    margin-top: 10%;
+    display:flex;
+    border: blue dotted;
+}
+
+.detail-attributes{
+    margin-top: 10%;
+    display: flex;
+    font-size: 35px;
+    justify-content: center;
 }
