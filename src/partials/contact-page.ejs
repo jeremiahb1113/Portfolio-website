@@ -1,0 +1,21 @@
+<div class="flex-container">
+       <div class="contact-form">
+        <h2 style="justify-content: center;"> Contact me</h2>
+
+        <form class="contact-form-input" id="contact-submit">
+            <label for="company-name">Company name</label>
+            <input placeholder="Company" type="text" id="company-name" name="company-name"/>
+            <br/>
+            <label for="full-name">Name</label>
+            <input placeholder="Name" required="true" type="text" id="full-name" name="full-name"/>
+            <br/>
+            <label for="email">Email</label>
+            <input placeholder="Your email address" required="true" type="email" id="email" name="email"/>
+            <br/>
+            <label for="message">Message</label>
+            <textarea placeholder="Tips, Advice, Comments, Employment opportunity?" required="true" style="height: 120px;" id="message" name="message"></textarea>
+            
+            <button onclick={submit} class="btn btn-dark">Send</button>
+        </form>
+    </div>
+</div>
