@@ -36,20 +36,6 @@ span{
     margin-right: 15%;
    /* height: 40%;*/
     width: 700px;
-   
-    
-    /*
-     
-    flex-wrap: wrap;
-    border-style: solid;
-    border-width: 2px solid rgb(214, 211, 211);
-    border-radius: 5px;
-    padding: 50px;
-    padding-right: 25px;
-    padding-left: 25px;
-    background-color: rgb(232, 238, 238);
-    
-    */
     
     
 
@@ -179,7 +165,8 @@ footer{
 .project-master{
     margin: 10% 5% 10% 5%;
     display: flex;
-    border:  solid blue;
+    border: solid black;
+    background-color: rgba(214, 211, 211, 0.284);
     justify-content:flex-start;
     
 }
@@ -187,12 +174,13 @@ footer{
 
 .project-component{
     margin: 3% 3% 3% 3%;
-    flex-direction: row;
+    flex-direction:column;
     display: flex;
     
     width: 70%;
     height:500px;
-    border: solid red;
+    border: solid black;
+    
     /*
     justify-content: center;
     margin-left: 80px;
@@ -211,17 +199,24 @@ footer{
     border: solid;
 }
 .project-image{
-    margin-left: 3px;
-    height: 65%;
-    width: 94%;
+    
+   display: flex;
+    margin: 5% 5% 40% 5%;
+    height: 70%;
+    width: 90%;
+    
+    
    
-
 }
 
 .project-content{
-    position: relative;
-    margin-bottom: 20%;
-    height: 30%;
+    
+    flex:auto;
+    
+    color: white;   
+   
+   text-align: justify;
+   
 }
 .colored-icons{
     
@@ -257,6 +252,7 @@ body{
 .details-page, .details-page2{
     margin-top: 10%;
     display:flex;
+    justify-content: center;
     
 }
 
@@ -266,9 +262,30 @@ body{
     font-size: 35px;
     justify-content: center;
 }
+
 title{
     display: flex;
     justify-content:flex-start;
     font-size: 40px;
     color: rgb(250, 250, 250);
 }
+
+/**button**/
+.btn{
+    
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    
+}
+
+
+/*
+.button-border{
+    display: flex;
+    border: solid red;
+    align-items: center;
+    margin-top: 20px;
+}
+*/
