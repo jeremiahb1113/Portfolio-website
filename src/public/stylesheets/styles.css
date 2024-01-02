@@ -51,7 +51,7 @@ hr{
 footer{
     
     background-color: black;
-    position: absolute;
+    position: relative;
     color: white;
     bottom: 0;
     text-align: center;
@@ -116,18 +116,9 @@ footer{
     background-attachment:scroll;
     background-size:cover;
 }
-.second-image{
-    background-image: url('../images/ultra-violent.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    
-}
+
 
 /* nav bar*/
-.flex-container{
-    
-    
-}
 .navigation-bar{
     display: flex;
     position: fixed;
@@ -181,14 +172,6 @@ footer{
     height:500px;
     border: solid black;
     
-    /*
-    justify-content: center;
-    margin-left: 80px;
-    border: solid;
-    height: 90%;
-    width: 75%;
-    background-color: aqua;
-    */
 }
 .project{
     margin-left: 10px;
@@ -218,30 +201,19 @@ footer{
    text-align: justify;
    
 }
-.colored-icons{
-    
-}
+
 
 /***new navbar***/
 
 
 
 
-.right-end{
-    float: right;
-    align-items: center;
-    display: flex;
-    flex-wrap:nowrap;
-    gap: 5%;
-}
+
 @media screen and (max-width: 600px){
 
 }
 
-footer{
-    margin-top: auto;
-    position: relative;
-}
+
 body{
     min-height: 100vh;
     display: flex;
@@ -295,12 +267,3 @@ title{
     flex-direction: column;
     margin: auto;
 }
-
-/*
-.button-border{
-    display: flex;
-    border: solid red;
-    align-items: center;
-    margin-top: 20px;
-}
-*/
