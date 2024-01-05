@@ -1,4 +1,5 @@
 <head>
+ 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeremiah's Portfolio</title>
@@ -14,8 +15,14 @@
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
 <script type="text/javascript">
+
+
+ const API_KEY = '<%=(process.env.EMAIL_API_KEY)%>';
+
    (function(){
-      emailjs.init("cotIPMolZuqmSkW3Z");
+      emailjs.init(API_KEY);
    })();
+   
 </script>
+
 </head>

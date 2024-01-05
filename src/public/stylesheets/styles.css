@@ -50,10 +50,12 @@ hr{
 }
 footer{
     
+    display: flex;
+    justify-content: center;
     background-color: black;
-    position: relative;
-    color: white;
+    position:fixed;
     bottom: 0;
+    color: white;
     text-align: center;
     
     width: 100%;
