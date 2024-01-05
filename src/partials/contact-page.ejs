@@ -52,42 +52,5 @@ emailjs.send(serviceId, templateID,params)
 
 }
 
-
-
-
 </script>
 
-
-<!--
-    
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-
-<script>
-const email_form = document.querySelector('.contact-form-input');
-   
-
-    function sendEmail(e){
-        e.preventDefault();
-const  em = document.querySelector('.em_address'),
-       sub = document.querySelector('.sub'),
-       msg = document.querySelector('.msg');
-
-    //Send the Email function using SMTP
-    Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "jeremiahbolden83@gmail.com",
-    Password : "8A2467097A2CC2AD90062B89448BB91BDDC0",
-    To : 'jeremiahbolden83@gmail.com',
-    From : em.value,
-    Subject : sub.value,
-    Body : msg.value
-}).then(
-  message => alert(message)
-);
-    }
-
-    email_form.addEventListener('submit', sendEmail);
-    
-    
-</script>
--->

@@ -2,15 +2,27 @@
 
 <%- include('../partials/head.ejs') %>
 
-
+<style>
+h2{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    
+    
+}
+</style>
 
 
 <body class="standard">
     
     <%- include('../partials/nav.ejs') %>
 
-    <h2>404... sorry what you were looking for could not be found</h2>
-    <%- include("../partials/footer.ejs") %>
+    <div class="flex-container">
+        <h2>404... sorry what you were looking for could not be found</h2>
+    </div>
+      <%- include("../partials/footer.ejs") %>
    
 </body>
 

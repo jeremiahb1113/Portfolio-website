@@ -68,6 +68,9 @@ footer{
     color:rgb(255, 255, 255);
     text-align: center;
     display: flexbox;
+
+    margin-left: 7%;
+    margin-right: 7%;
    
 }
 .techs{
@@ -97,7 +100,7 @@ footer{
 
 .bigname{
     padding-top: 14%;
-    text-align: justify;
+    text-align: center;
     font-size: 110px;
     font-family: league-spartan;
     color:black;
@@ -106,10 +109,10 @@ footer{
 }
 
 .midname{
-    text-align: justify;
+    text-align: center;
     font-size: 80px;
-    color: black;
-    text-indent: 200px;
+    color: white;
+    text-indent: 5%;
 }
 .standard{
     /*photo size is 4288 x 28488*/
